@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "src/test/resources/features/",
                  glue = "com/hrms/stepdefinitions",
                  dryRun = false,
-                 tags = {"@jobTitle"},
+                 tags = {"@pim"},
                  monochrome = true,
                  plugin = {"pretty",
                          "html:target/html/cucumber-default-report",
